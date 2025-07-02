@@ -1,13 +1,13 @@
 /******* Customized Bootstrap ********/
 
-$primary: #c5001a;
+$primary: #f4df4eff;
 $secondary: #ff6922;
 $light: #fdefef;
 $dark: #0e2e50;
 
-$font-family-base: 'Heebo', sans-serif;
+$font-family-base: "Heebo", sans-serif;
 
-$headings-font-family: 'Inter', sans-serif;
+$headings-font-family: "Inter", sans-serif;
 
 $body-bg: $light;
 
@@ -27,4 +27,4 @@ $link-decoration: none;
 
 $enable-negative-margins: true;
 
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";

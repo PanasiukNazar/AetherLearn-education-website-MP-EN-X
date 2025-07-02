@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #c5001a;
+    --primary: #f4df4eff;
     --secondary: #ff6922;
     --light: #fdefef;
     --dark: #0e2e50;
@@ -85,15 +85,15 @@
 
 .navbar .dropdown-toggle::after {
     border: none;
-    content: '\f107';
-    font-family: 'Font Awesome 5 Free';
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     vertical-align: middle;
     margin-left: 5px;
     transition: 0.5s;
 }
 
-.navbar .dropdown-toggle[aria-expanded='true']::after {
+.navbar .dropdown-toggle[aria-expanded="true"]::after {
     transform: rotate(-180deg);
 }
 
@@ -221,7 +221,7 @@
 
 .about-img::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 0;
     left: -50%;
     width: 100%;
@@ -233,7 +233,7 @@
 
 .blog-img::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 0;
     left: 50%;
     width: 100%;
@@ -402,8 +402,8 @@
 
 .footer .btn.btn-link::before {
     position: relative;
-    content: '\f105';
-    font-family: 'Font Awesome 5 Free';
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
 }
@@ -444,7 +444,7 @@
 /* Cookie banner */
 
 /* Google Fonts - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 @media (max-width: 700px) {
     .cookie-wrapper {
@@ -474,12 +474,12 @@
     display: none;
 }
 header i {
-    color: #c5001a;
+    color: #f4df4eff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #c5001a;
+    color: #f4df4eff;
     font-weight: 500;
     text-align: center;
 }
@@ -487,7 +487,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #c5001a;
+    color: #f4df4eff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -499,10 +499,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #c5001a;
+    border: 2px solid #f4df4eff;
     color: #fff;
     padding: 8px 0;
-    background: #c5001a;
+    background: #f4df4eff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.5s ease;
@@ -511,14 +511,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #c5001a;
+    color: #f4df4eff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #c5001a;
+    color: #f4df4eff;
 }
 #declineBtn:hover {
-    background-color: #c5001a;
+    background-color: #f4df4eff;
     color: #fff;
 }
 /* Footer Style */
